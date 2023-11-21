@@ -4,10 +4,6 @@ def mostrar_menu():
     print("2. Registro")
     print("3. Ordenamiento")
     print("4. Salir")
-
-
-
-
 # Función para la opción 1
 def opcion1():
     print("Has seleccionado la Opción 1")
@@ -36,7 +32,7 @@ def opcion3():
 def main():
     while True:
         mostrar_menu()
-        seleccion = input("Selecciona una opción: ")
+        seleccion = input("Selecciona una opción por favor: ")
 
         if seleccion == "1":
             opcion1()
